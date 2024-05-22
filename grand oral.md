@@ -13,7 +13,11 @@ from microbit import *
 
 
 
-while True:
-    print((temperature(),30,0))
-    sleep(20)
+
+### programme read annalog led :
+while True :
+    
+    mesure = (pin1.read_analog)
+    pin0.write_analog(mesure)
+    sleep(50)
 
