@@ -21,3 +21,10 @@ while True :
     pin0.write_analog(mesure)
     sleep(50)
 
+## objectid 1 :
+##### addapter le programme au dessus pour capteur temperature : module grove high temperature 
+while True :
+    
+    mesure = (pin2.read_analog)
+    pin0.write_analog(mesure)
+    sleep(50)
