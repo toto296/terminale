@@ -22,9 +22,17 @@ while True :
     sleep(50)
 
 ## objectid 1 :
-##### addapter le programme au dessus pour capteur temperature : module grove high temperature 
+##### addapter le programme au dessus pour capteur temperature : module grove high temperature
+from microbit import *
+
 while True :
     
-    mesure = (pin2.read_analog)
-    pin0.write_analog(mesure)
-    sleep(50)
+    mesure_a = (pin2.read_analog)
+    mesure_b = (pin1.read_analog)
+    pin0.write_analog(mesure_a)
+    print((mesure_a,mesure_b,1023))
+    sleep(20)
+
+
+
+
