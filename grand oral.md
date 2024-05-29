@@ -39,3 +39,6 @@ plus d'info sur mon capteur temperature ( temp max, dans l'eau etc...)
 https://boutique.semageek.com/fr/1015-capteur-de-haute-temperature-grove-3008572258635.html
 
 notion etalonnage convertrir mes données numérique en temperature.
+
+
+etalonnage calibrage
