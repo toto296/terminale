@@ -35,10 +35,14 @@ while True :
     sleep(20)
 
 
-plus d'info sur mon capteur temperature ( temp max, dans l'eau etc...)
+## plus d'info sur mon capteur temperature ( temp max, dans l'eau etc...)
 https://boutique.semageek.com/fr/1015-capteur-de-haute-temperature-grove-3008572258635.html
+La gamme détectable de ce capteur est -50 à 600 ℃, et la précision est de ± (2.0% + 2 ℃)
+thermistance en bleu   cable thermocouple ( Précision de la thermocouple ±2% (+2°C))
 
-notion etalonnage convertrir mes données numérique en temperature.
+## notion etalonnage convertrir mes données numérique en temperature.
+ le rapport entre la valeur affichée par l'instrument de mesure et la valeur vraie.
+ L'étalonnage d'un instrument de mesure au moyen d'un étalon permet de garantir sa fiabilité.
 
 
 etalonnage calibrage
